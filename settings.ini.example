@@ -1,0 +1,7 @@
+[spotify]
+client_id = your_spotify_client_id
+client_secret = your_spotify_client_secret
+use_oauth = false
+
+[youtube]
+headers_file = oauth.json

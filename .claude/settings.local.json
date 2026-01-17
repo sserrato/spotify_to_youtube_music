@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(ytmusicapi --help:*)",
+      "Bash(ytmusicapi oauth:*)",
+      "Bash(python3:*)",
+      "Bash(pip show:*)",
+      "Bash(echo \"\" echo \"1. Checking for hardcoded credentials...\" grep -r \"password\\\\|secret\\\\|api_key\\\\|token\" --include=\"*.py\" /Users/sergioserrato/Documents/workspace/spotify_to_youtube_playlist/src/)",
+      "Bash(head -20 echo \"\" echo \"2. Checking .gitignore covers sensitive files...\" cat /Users/sergioserrato/Documents/workspace/spotify_to_youtube_playlist/.gitignore echo \"\" echo \"3. Checking for sensitive files that might be committed...\" ls -la /Users/sergioserrato/Documents/workspace/spotify_to_youtube_playlist/*.json)",
+      "Bash(echo \"No .env file exposed \\(or properly gitignored\\)\" echo \"\" echo \"4. Checking for command injection vulnerabilities...\" grep -r \"subprocess\\\\|os.system\\\\|eval\\\\|exec\" --include=\"*.py\" /Users/sergioserrato/Documents/workspace/spotify_to_youtube_playlist/src/)",
+      "Bash(echo \"No subprocess/eval/exec calls found \\(good\\)\" echo \"\" echo \"5. Checking for SQL injection \\(unlikely but checking\\)...\" grep -r \"execute\\\\|cursor\\\\|SELECT\\\\|INSERT\\\\|UPDATE\\\\|DELETE\" --include=\"*.py\" /Users/sergioserrato/Documents/workspace/spotify_to_youtube_playlist/src/)",
+      "Bash(chmod:*)"
+    ]
+  }
+}

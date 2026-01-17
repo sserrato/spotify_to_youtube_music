@@ -1,0 +1,18 @@
+# Credentials
+settings.ini
+oauth.json
+browser.json
+.cache
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Output files
+noresults_youtube.txt
+empty_playlists.txt
