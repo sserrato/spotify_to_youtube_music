@@ -16,3 +16,6 @@ env/
 # Output files
 noresults_youtube.txt
 empty_playlists.txt
+batch1_not_found.txt 
+playlist_comparison.txt
+
