@@ -19,3 +19,7 @@ empty_playlists.txt
 batch1_not_found.txt 
 playlist_comparison.txt
 
+
+# Machine noise and local tool config; never track.
+.DS_Store
+.claude/settings.local.json
